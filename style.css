@@ -1,0 +1,96 @@
+body {
+    background-image: url(imgs/background.jpg);
+    background-size: cover;
+    color: rgb(218, 218, 192);
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.856);
+    position: fixed;
+    font-size: 2vw;
+    width: 100vw;
+    height: 8vh;
+    padding-left: 3vw;
+    padding-bottom: 1vw;
+
+}
+
+#wiki {
+    padding-top: 15vh;
+    padding-left: 3vw;
+    font-size: 1.7vw;
+}
+
+a {
+    color:rgb(245, 26, 26);
+    text-decoration: none;
+}
+
+#main {
+    padding: 5%;
+    position: relative;
+    
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3%;
+    background-color: rgba(8, 8, 8, 0.76);
+    border-radius: 100%;
+    
+    
+    
+}
+
+label {
+    
+    
+    font-size: 2vw;
+    background-color: rgb(8, 8, 8, 0.76);
+    padding: 5px;
+    padding-top: 1px;
+    border-radius: 10%;
+    display: inline-block;
+    
+    margin: 5vh 2% 5vh 10%;
+    
+    
+
+}
+
+textarea {
+    font-size: 2vw;
+    padding: 4px;
+    
+    top: 7vh;
+    display: block;
+    margin-left: 10%;
+    
+}
+
+#string {
+    width: 70vw;
+    margin-bottom: 3%;
+    background-color: rgb(190, 188, 188);
+    box-shadow: 2px 2px rgba(8, 8, 8, 0.76);
+}
+
+input[type="submit"] {
+    background-color: rgba(5, 151, 49, 0.897);
+    padding: 4px;
+    width: 20vh;
+    height: 6vh;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: rgba(8, 8, 8, 0.76);
+    display: block;
+    margin-left: 10%;
+    font-size: 2vh;
+    color: rgb(196, 196, 172);
+}
